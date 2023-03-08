@@ -1,0 +1,39 @@
+.card {
+    border-radius: 0;
+    border: none;
+  }
+  
+  .card-header {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  #result {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  #currency-chart {
+    height: 400px;
+  }
+  
