@@ -1,8 +1,8 @@
 const currencyExchangeRates = {
-    "EGP": 2.2,
-    "MAD": 7,
-    "RUB": 1
+    "EGP": 1,
+    "RUB": 2.3
   };
+  
   
   const exchangeForm = document.querySelector("#exchange-form");
   const amountInput = document.querySelector("#amount");

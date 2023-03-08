@@ -12,7 +12,19 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"> Alsaad Currency Exchange</a>
+    <a class="navbar-brand" href="#">Alsaad Currency Exchange</a>
+    <div class="ml-auto">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="language-dropdown" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          English
+        </button>
+        <div class="dropdown-menu" aria-labelledby="language-dropdown">
+          <a class="dropdown-item" href="#" onclick="changeLanguage('en')">English</a>
+          <a class="dropdown-item" href="#" onclick="changeLanguage('ar')">العربية</a>
+        </div>
+      </div>
+    </div>
   </nav>
 
   <div class="container">
@@ -30,7 +42,7 @@
             <label for="from-currency">From Currency</label>
             <select class="form-control" id="from-currency" required>
               <option value="EGP">EGP - Egyptian Pound</option>
-              <option value="MAD">MAD - Moroccan Dirham</option>
+              <!-- <option value="MAD">MAD - Moroccan Dirham</option> -->
             </select>
           </div>
           <div class="form-group">
